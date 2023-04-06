@@ -3,45 +3,14 @@
 <head>
     <title>WEB1-CSS</title>
     <meta charset="utf-8">
-    <style>
-
-        body {
-            margin: 0;
-        }
-        a {
-            color: black;
-            text-decoration: none;
-        }
-
-        h1 {
-            font-size: 70px;
-            text-align: center;
-            border-bottom: 1px solid gray;
-            margin: 0;
-            padding: 20px;
-        }
-
-        #active {
-            color: red;
-        }
-
-        .saw {
-            color: gray;
-        }
-        ol{
-            border-right: 1px solid gray;
-            width: 100px;
-            margin: 0;
-            padding: 20px;
-        }
- 
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
+    <div id="grid">
     <ol>
-        <li><a href="Min1.html" class="saw">HTML</a></li>
-        <li><a href="Min2.html" class="saw" id = "active">CSS</a></li>
+        <li><a href="Min1.html">HTML</a></li>
+        <li><a href="Min2.html">CSS</a></li>
         <li><a href="Min3.html">JavaScripts</a></li>
     </ol>
     <!--
@@ -52,14 +21,17 @@
         <li><a href="Min3.html"><font color="red">JavaScript</font></a></li>
     </ol>\watch
 -->
-<h2>CSS</h2>
-<p>CSS 는 사용자에게 문서를 표시하는 방법을 지정하는 언어입니다 
+<div id="article">
+    <h2>CSS</h2>
+<p>
+    CSS 는 사용자에게 문서를 표시하는 방법을 지정하는 언어입니다 
     ? 스타일, 레이아웃 등.
-
     문서는 일반적으로 마크 업 언어를 사용하여 구성된 텍스트 파일입니다 
     ? HTML 이 가장 일반적인 마크 업 언어이지만, SVG 또는 XML 과 같은 다른 마크 업 언어를 사용할 수도 있습니다.
-    
     사용자에게 문서를 제공 한다는 것은 대상이 사용 할 수 있는 형식으로 문서를 변환하는 것을 의미합니다. 
-    Browsers, Firefox, Chrome 또는 Edge 는 컴퓨터 화면, 프로젝터 또는 프린터 등의 문서를 시각적으로 표시하도록 설계되었습니다.</p>
+    Browsers, Firefox, Chrome 또는 Edge 는 컴퓨터 화면, 프로젝터 또는 프린터 등의 문서를 시각적으로 표시하도록 설계되었습니다.
+</p>
+</div>
+</div>
 </body>
 </html>
