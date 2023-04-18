@@ -20,13 +20,26 @@
     target.style.backgroundColor ='black';
     target.style.color ='white'; 
     this.value = 'day';
-    }
-    else {
+
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+        alist[i].style.color = 'powderblue';
+        i++
+}
+    } else {
     target.style.backgroundColor ='white';
     target.style.color ='black';
     this.value ='night';
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+        alist[i].style.color = 'blue';
+        i++
+}
     }
     ">
+
     <ol>
         <li><a href="Min1.html">HTML</a></li>
         <li><a href="Min2.html">CSS</a></li>
